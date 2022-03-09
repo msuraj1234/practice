@@ -3,6 +3,7 @@ d = {}
 for i in str:
     if i not in d:
         d[i] = 1
+        print('Hi This is Suraj')
     else:
         d[i] += 1
         if d[i]>1:
